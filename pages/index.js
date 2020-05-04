@@ -11,7 +11,7 @@ const Title = styled.h1`
 const Index = ({}) => {
   return (
     <Layout>
-      <Title> Index page </Title>
+      <Title> Become a Playmaker </Title>
     </Layout>
   );
 };

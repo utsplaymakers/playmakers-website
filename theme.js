@@ -1,17 +1,16 @@
 const Palette = {
   bg: {
-    primary: "#eff0f5",
-    secondary: "#7b5ae0",
-    tertiary: "#e2e4e8",
-    input: "rgba(65,67,78,0.12)",
+    red: "#D9263B",
+    black: "#000000",
+    white: "#FBF8F8",
+    offRed: "E17384",
   },
   text: {
-    primary: "#050505",
-    secondary: "#7b5ae0",
-    tertiary: "#ea38a6",
-    quarternary: "#9194a1",
-    placeholder: "rgba(82,85,96,0.5)",
-    onPrimary: "#ffffff",
+    white: "#FBF8F8",
+    black: "#000000",
+    red: "#D9263B",
+    offRed: "#9194a1",
+    grey: "#A0AEC0",
   },
 };
 

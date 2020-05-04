@@ -4,8 +4,8 @@ import "../style.css";
 
 export const GlobalStyles = createGlobalStyle`
   body, #root {
-    background: ${({ theme }) => theme.bg.primary};
-    color: ${({ theme }) => theme.text.primary};
+    background: ${({ theme }) => theme.bg.red};
+    color: ${({ theme }) => theme.text.white};
     margin: 0 auto;
   }
 `;
