@@ -4,7 +4,9 @@
   "description": "NextJS SSR website using React and styled components",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/utsplaymakers/playmakers-website/issues"
   },
-  "homepage": "https://github.com/utsplaymakers/playmakers-website#readme"
+  "homepage": "https://github.com/utsplaymakers/playmakers-website#readme",
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.10.7",
+    "next": "^9.3.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.0"
+  }
 }
